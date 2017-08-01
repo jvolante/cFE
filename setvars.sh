@@ -231,6 +231,14 @@ export CFE_TOOLS=$CFS_MISSION/tools
 export UTF_SRC=$CFE_DIR/tools/utf
 
 #
+# Variable: UT_ASSERT_SRC
+#
+# UT_ASSERT_SRC is the location of the ut_assert framework for cFE apps.
+# This variable must point to the locaiton of the "cfe/tools/ut_assert/" subdirectory.
+#
+export UT_ASSERT_SRC=$CFE_TOOLS/ut_assert
+
+#
 ###############################################################################
 #             Please do not change anything below this line
 ###############################################################################
